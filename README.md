@@ -18,10 +18,10 @@ A powerful command-line tool that creates secure WebSocket tunnels to expose you
 
 ```bash
 # Install globally (recommended)
-sudo npm install -g @dfanso/tunnel-client
+sudo npm install -g @dfanso/tunnel-client@1.0.2
 
 # Or install locally in your project
-npm install @dfanso/tunnel-client
+npm install @dfanso/tunnel-client@1.0.2
 ```
 
 ## Quick Start
