@@ -1,0 +1,55 @@
+{
+  "name": "@dfanso/tunnel-client",
+  "version": "1.0.1",
+  "description": "Create secure WebSocket tunnels to expose local servers to the internet",
+  "main": "src/index.js",
+  "bin": {
+    "ltunnel": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "echo \"No lint specified\" && exit 0",
+    "prepublishOnly": "echo \"Skipping tests and lint for initial publish\""
+  },
+  "keywords": [
+    "tunnel",
+    "local",
+    "proxy",
+    "cli",
+    "websocket",
+    "expose",
+    "development"
+  ],
+  "author": "dfanso",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfanso/dfanso-tunnel-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dfanso/dfanso-tunnel-client/issues"
+  },
+  "homepage": "https://github.com/dfanso/dfanso-tunnel-client#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "conf": "^10.1.1",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
